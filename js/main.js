@@ -29,7 +29,7 @@ function loadTable(){
         
      })
 
-        /*for(let i=0; i<data.drinks.length; i++){
+        for(let i=0; i<data.drinks.length; i++){
             let drink = {
                 drinkName: data.drinks[i].strDrink,
                 drinking: data.drinks[i].strDrinkThumb,
@@ -51,7 +51,7 @@ function loadTable(){
 
 
 
-function displayResults(cocktails) {
+/*function displayResults(cocktails) {
     const tbody = document.querySelector("#cocktail-rows");
 
     // Clear the existing table rows
