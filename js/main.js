@@ -18,7 +18,7 @@ drinkForm.addEventListener("submit", tableSubmit => {//invoke the tableSubmit fu
 });
 
 
-/*function loadTable(){
+function loadTable(){
    let completeUrl = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita";
    //fetch info from the cocktail database
     fetch(completeUrl)
@@ -29,7 +29,7 @@ drinkForm.addEventListener("submit", tableSubmit => {//invoke the tableSubmit fu
         
      })
 
-        for(let i=0; i<data.drinks.length; i++){
+        /*for(let i=0; i<data.drinks.length; i++){
             let drink = {
                 drinkName: data.drinks[i].strDrink,
                 drinking: data.drinks[i].strDrinkThumb,
