@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MixMaster</title>
+</head>
+<body>
+  <h1>MixMaster Cocktail Search</h1>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Cosmopolitan_%285076906532%29.jpg" alt="" width="150" height="150">
+
+  <form id="drink-form">
+      <label for="search">Search Cocktail: </label>
+  <input type="text" id="search" name="search">
+  <button type="submit">Search</button>
+</form>
+
+<table id="cocktail-table">
+  <thead>
+      <tr>
+          <th>Drink Name</th>
+          <th>Drink Image</th>
+          <th>Alcoholic</th>
+          <th>Ingredients</th>
+      </tr>
+  </thead>
+  <tbody id="cocktail-rows">
+      <!-- Rows will be dynamically added here -->
+
+  </tbody>
+</table>
+<div class="d-grid gap-2 d-md-block">
+  <button class="btn btn-primary" type="button">Share</button>
+  <button class="btn btn-primary" type="button">Download</button>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
