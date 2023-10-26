@@ -51,7 +51,7 @@ function loadTable(){
 
 
 
-/*function displayResults(cocktails) {
+function displayResults(cocktails) {
     const tbody = document.querySelector("#cocktail-rows");
 
     // Clear the existing table rows
@@ -72,18 +72,7 @@ function loadTable(){
             tbody.appendChild(row);
           
         });
-        //build share and download button
-        let card = document.createElement("li");
-        card.className = 'card'
-        card.innerHTML = `
-         <div class = "buttons">
-         <div>Share</div>
-         <div>Download</div>
-         </div>
-        `
-
-         //add the card to DOM
-         document.querySelector('#extras').appendChild(card)
+        
    }
 
 }
